@@ -1,0 +1,18 @@
+name: Documentation Improvement
+description: Report wrong or missing documentation
+title: "DOC: "
+labels: [Docs, Needs Triage]
+
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location of the documentation
+      description: |
+        This should provide the location of the documentation, e.g.
+        "pandas.read_csv" or the URL of the documentation, e.g.
+        "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html"
+
+        **Note**: You can check the latest versions of the docs on `master` [here](https://pandas.pydata.org/docs/dev/).
+    validations:
+      required: true
