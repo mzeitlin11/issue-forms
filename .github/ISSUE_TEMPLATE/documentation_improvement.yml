@@ -4,7 +4,7 @@ title: "DOC: "
 labels: [Docs, Needs Triage]
 
 body:
-  - type: input
+  - type: textarea
     id: location
     attributes:
       label: Location of the documentation
@@ -31,3 +31,5 @@ body:
       label: Suggested fix for documentation
       description: |
         This should explain the suggested fix and **why** it's better than the existing documentation
+    validations:
+      required: true
