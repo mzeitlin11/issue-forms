@@ -14,5 +14,20 @@ body:
         "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html"
 
         **Note**: You can check the latest versions of the docs on `master` [here](https://pandas.pydata.org/docs/dev/).
+      placeholder: https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
     validations:
       required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Documentation problem
+      description: |
+        This should provide a description of what documentation you believe needs to be fixed/improved
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix for documentation
+      description: |
+        This should explain the suggested fix and **why** it's better than the existing documentation
