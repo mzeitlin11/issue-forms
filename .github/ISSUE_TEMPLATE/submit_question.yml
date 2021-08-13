@@ -15,9 +15,6 @@ body:
         I have searched the [[pandas] tag](https://stackoverflow.com/questions/tagged/pandas)
         on StackOverflow for similar questions.
       required: true
-- type: markdown
-  attributes:
-    value: ---
 - type: checkboxes
   attributes:
     label: Have you asked your question on StackOverflow?
@@ -28,12 +25,18 @@ body:
     - label: >
         I have asked my usage related question on [StackOverflow](https://stackoverflow.com).
       required: true
+- type: markdown
+  attributes:
+    value: ---
 - type: input
   id: question-link
   attributes:
     label: Link to question on StackOverflow
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: ---
 - type: textarea
   id: question
   attributes:
