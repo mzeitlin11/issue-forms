@@ -16,7 +16,6 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: Have you asked your question on StackOverflow?
     description: >
       Since [StackOverflow](https://stackoverflow.com) is better suited towards answering
       usage questions, we ask that all usage questions are first asked on StackOverflow.
@@ -24,9 +23,6 @@ body:
     - label: >
         I have asked my usage related question on [StackOverflow](https://stackoverflow.com).
       required: true
-- type: markdown
-  attributes:
-    value: ---
 - type: input
   id: question-link
   attributes:
