@@ -15,6 +15,9 @@ body:
         I have searched the [[pandas] tag](https://stackoverflow.com/questions/tagged/pandas)
         on StackOverflow for similar questions.
       required: true
+- type: markdown
+  attributes:
+    value: ---
 - type: checkboxes
   attributes:
     label: Have you asked your question on StackOverflow?
