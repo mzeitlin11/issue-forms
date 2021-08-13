@@ -4,11 +4,13 @@ title: "QST: "
 labels: [Usage Question, Needs Triage]
 
 body:
-- type: checkboxes
+- type: markdown
   attributes:
-    description: >
+    value: >
       Since [StackOverflow](https://stackoverflow.com) is better suited towards answering
       usage questions, we ask that all usage questions are first asked on StackOverflow.
+- type: checkboxes
+  attributes:
     options:
     - label: >
         I have searched the [[pandas] tag](https://stackoverflow.com/questions/tagged/pandas)
