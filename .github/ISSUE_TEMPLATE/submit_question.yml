@@ -6,6 +6,7 @@ labels: [Usage Question, Needs Triage]
 body:
 - type: checkboxes
   attributes:
+    id: similar-questions
     description: >
       Please search the [[pandas] tag](https://stackoverflow.com/questions/tagged/pandas)
       on StackOverflow for similar questions before asking here.
