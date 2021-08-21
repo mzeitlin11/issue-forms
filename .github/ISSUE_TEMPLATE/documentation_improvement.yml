@@ -36,5 +36,3 @@ body:
       label: Suggested fix for documentation
       description: >
         This should explain the suggested fix and **why** it's better than the existing documentation
-    validations:
-      required: true
